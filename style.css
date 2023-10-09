@@ -117,43 +117,38 @@ legend {
 .header {
   background-image: url(./image/KiaSonet.jpg);
   background-repeat: no-repeat;
-  height: 500px;
+  min-height: 700px;
   background-size: cover;
+  background-position: center center;
 }
-
-@media (max-width: 920px) {
+@media (max-width: 1000px) {
   .header {
-    height: 360px;
-  }
-}
-@media (max-width: 720px) {
-  .header {
-    height: 300px;
+    min-height: 500px;
   }
 }
 @media (max-width: 600px) {
   .header {
-    height: 250px;
+    min-height: 250px;
   }
 }
 @media (max-width: 530px) {
   .header {
-    height: 230px;
+    min-height: 230px;
   }
 }
 @media (max-width: 450px) {
   .header {
-    height: 200px;
+    min-height: 200px;
   }
 }
 @media (max-width: 380px) {
   .header {
-    height: 180px;
+    min-height: 180px;
   }
 }
 @media (max-width: 340px) {
   .header {
-    height: 140px;
+    min-height: 140px;
   }
 }
 .container {
