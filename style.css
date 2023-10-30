@@ -178,6 +178,14 @@ legend {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-bottom: 20px;
+}
+.part-number{
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 @media (max-width: 920px) {
   .model_title {
@@ -187,6 +195,9 @@ legend {
     font-size: 18px;
   }
   .date {
+    font-size: 18px;
+  }
+  .part-number{
     font-size: 18px;
   }
 }
@@ -200,6 +211,9 @@ legend {
   .date {
     font-size: 16px;
   }
+  .part-number{
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -210,6 +224,9 @@ legend {
     font-size: 14px;
   }
   .date {
+    font-size: 14px;
+  }
+  .part-number{
     font-size: 14px;
   }
 }
